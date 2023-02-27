@@ -2,22 +2,21 @@ body {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
 	margin: 0;
 	padding: 0;
-}
 
+}
 header {
+contain: layout;
 	background-color: rgb(39, 146, 150);
-	color: #fff;
+	color: hsl(183, 88%, 46%);
+	border: 20px;;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items:flex-end;
 	padding: 20px;
 	background-image: url("headerpicturemidterm.jpg");
-
-	padding: 20px;
-
+flex-wrap: inherit;
 	
 }
-
 nav ul {
 	list-style: none;
 	display: flex;
@@ -28,8 +27,8 @@ nav li {
 }
 
 nav a {
-	color: #fff;
-	text-decoration: none;
+	color: rgb(32, 193, 201);
+	text-decoration:wavy;
 }
 
 section {
@@ -37,7 +36,8 @@ section {
 }
 
 section h2 {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+	
 }
 
 ul {
@@ -59,4 +59,12 @@ img{
 .selector{
 	background-image:url(headerpicturemidterm.jpg) ;
 	flex-flow: wrap;
+}
+
+header{
+	border-width: 2px; border-style: groove;
+}
+.index-container {
+	border: 2px solid #000000; 
+	padding: 10px;
 }
